@@ -102,6 +102,8 @@ section {
     border-radius: 1em;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.125);
     background-color: var(--warm-white);
+    box-sizing: border-box;
+    padding: 1em;
 }
 
 .column {
@@ -127,8 +129,8 @@ p {
         linear-gradient(
         to bottom, 
         transparent 0,
-        rgba(0, 0, 0, 0.25) 1cm,
-        rgba(0, 0, 0, 0.25) calc(100% - 1cm),
+        color-mix(in srgb, var(--charcoal) 25%, transparent) 1cm,
+        color-mix(in srgb, var(--charcoal) 25%, transparent) calc(100% - 1cm),
         transparent 100%
         ) 1 80%;
     border-left: 1px solid;
@@ -159,4 +161,33 @@ p {
 
 .illustration + .illustration {
     margin-top: 1em;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    text-decoration: none;
+    color: var(--charcoal);
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.icon > img {
+    width: 2em;
+    height: 2em;
+}
+
+.icon:hover {
+    background-color: white;
+}
+
+.map {
+    margin: 1em;
+    width: calc(100% - 2em);
+    height: 25vh;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.125);
 }
