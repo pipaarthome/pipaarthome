@@ -86,12 +86,12 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    max-width: 15cm;
     gap: 2em;
 }
 
 .cards > * {
-    width: 30%;
+    max-width: 30%;
     border-radius: 1em;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.125);
     padding: 1em;
@@ -104,24 +104,7 @@ section {
     background-color: var(--warm-white);
 }
 
-img.full {
-    width: 100%;
-}
-
-img.half {
-    width: 50%;
-}
-
-img.quarter {
-    width: 25%;
-}
-
-img.third {
-    width: 33.33%;
-}
-
 .column {
-    width: 100%;
     max-width: 15cm;
     margin: 0 auto;
 }
