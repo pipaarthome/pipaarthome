@@ -67,6 +67,20 @@ section {
     text-align: center;
 }
 
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+}
+
+@media (max-width: 600px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .gallery {
     display: flex;
     flex-direction: row;
@@ -92,6 +106,7 @@ section {
 
 .cards > * {
     max-width: 30%;
+    min-width: 10em;
     border-radius: 1em;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.125);
     padding: 1em;
@@ -99,6 +114,7 @@ section {
 }
 
 .card {
+    min-width: 10em;
     border-radius: 1em;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.125);
     background-color: var(--warm-white);
