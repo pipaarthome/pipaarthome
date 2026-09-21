@@ -3,6 +3,9 @@
         "pt": PAH.languages.pt,
         "en": PAH.languages.en,
         "de": PAH.languages.de,
+        "es": PAH.languages.es,
+        "it": PAH.languages.it,
+        "fr": PAH.languages.fr,
     };
 
     const util = {
