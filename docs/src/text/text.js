@@ -1,6 +1,7 @@
 {
     const languages = {
-        "pt": window.PAH.languages.pt,
+        "pt": PAH.languages.pt,
+        "en": PAH.languages.en,
     };
 
     const util = {
