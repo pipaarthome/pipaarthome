@@ -83,7 +83,6 @@ section {
 }
 
 .gallery {
-    position: relative;
     display: flex;
     flex-direction: row;
     max-width: 100%;
@@ -96,23 +95,6 @@ section {
     height: 25vh;
     border-radius: 1em;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
-}
-
-.scrollhint {
-    position: absolute;
-    width: 6.25vh;
-    height: 6.25vh;
-    top: calc(50% - 3.125vh - 1em);
-    right: 0;
-    margin: 1em;
-    border-radius: 50%;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
-    border: 2px solid var(--warm-white);
-    background: color-mix(in srgb, var(--warm-white) 75%, transparent);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation: scrollhintPulse 1s ease-in-out infinite alternate;
 }
 
 .scrollhint::before {
