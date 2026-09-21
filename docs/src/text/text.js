@@ -2,6 +2,7 @@
     const languages = {
         "pt": PAH.languages.pt,
         "en": PAH.languages.en,
+        "de": PAH.languages.de,
     };
 
     const util = {
