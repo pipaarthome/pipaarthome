@@ -5,15 +5,20 @@ window.PAH.languages.pt = {
         "Pipa Art Home",
         "🪁 🎨 🏠"
     ],
-    "info": {
-        "contact": "Contato",
-        "capacity-title": "Capacidade",
-        "capacity-body": "Até 6 pessoas com máximo conforto",
-        "location-title": "Localização",
-        "location-body": [
+    "contact": {
+        "title": "Contato",
+        "mail": "mailto:wwcmelo@gmail.com"
+    },
+    "location": {
+        "title": "Localização",
+        "body": [
             "Condomínio Fechado com Portaria e Segurança 24h",
             "Praia da Pipa, RN"
         ]
+    },
+    "capacity": {
+        "title": "Capacidade",
+        "body": "Até 6 pessoas com máximo conforto"
     },
     "about": {
         "title": "🌟 Sobre o Espaço",
@@ -49,29 +54,27 @@ window.PAH.languages.pt = {
     },
     "infrastructure": {
         "title": "🛋️ Infraestrutura & Comodidades",
-        "items": [
-            {
-                "title": "🍽️ Cozinha Americana Completa",
-                "items": [
-                    "Geladeira, fogão, micro-ondas e purificador de água.",
-                    "Air Fryer, cafeteira, liquidificador e cuscuzeira."
-                ]
-            },
-            {
-                "title": "🛏️ Enxoval & Banheiros",
-                "items": [
-                    "Enxoval completo de cama e banho (6 jogos).",
-                    "Sabonete líquido e shampoo cortesia nos WCs."
-                ]
-            },
-            {
-                "title": "🛏️ Quartos",
-                "items": [
-                    "Wi-Fi de alta velocidade.",
-                    "TV de tela plana."
-                ]
-            }
-        ]
+        "kitchen": {
+            "title": "🍽️ Cozinha Americana Completa",
+            "list": [
+                "Geladeira, fogão, micro-ondas e purificador de água.",
+                "Air Fryer, cafeteira, liquidificador e cuscuzeira."
+            ]
+        },
+        "bathroom": {
+            "title": "🛏️ Enxoval & Banheiros",
+            "list": [
+                "Enxoval completo de cama e banho (6 jogos).",
+                "Sabonete líquido e shampoo cortesia nos WCs."
+            ]
+        },
+        "bedroom": {
+            "title": "🛏️ Quartos",
+            "list": [
+                "Wi-Fi de alta velocidade.",
+                "TV de tela plana."
+            ]
+        }
     },
     "nearby": {
         "title": "📍 Localização Privilegiada",
