@@ -1,4 +1,6 @@
-{
+window.PAH = window.PAH || {};
+window.PAH.languages = window.PAH.languages || {};
+window.PAH.languages.pt = {
     "title": [
         "Pipa Art Home",
         "🪁 🎨 🏠"
@@ -81,4 +83,4 @@
             "🌅 1,3 km do Chapadão de Pipa"
         ]
     }
-}
+};
